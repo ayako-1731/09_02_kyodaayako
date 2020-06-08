@@ -1,0 +1,73 @@
+body {
+  background-color: #FFFFEF;
+  line-height: 24px;
+  font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  color: #6699FF;
+  font-weight: bold;
+}
+
+.header_title {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* 確認画面 */
+
+tbody {
+  border:2px solid grey;
+}
+
+#tbl_bdr table {
+  border-collapse: collapse;
+  border:2px solid grey;
+  line-height: 2;
+  text-align: center;
+  }
+
+thead {
+  background-color:  rgb(228, 202, 206);;
+}
+
+tr, th, td {
+  border-collapse: collapse;
+  border:1px solid grey;
+  /* background-color:  rgb(228, 202, 206); */
+  line-height: 2;
+  text-align: center;
+}  
+
+/* 確認画面　合計 */
+
+p input {
+  height: 25px;
+}
+
+/* ：：：：：：：：：：：：：：：：： */
+
+select {
+  height: 38px;
+}
+
+div {
+  padding-bottom: 20px;
+}
+
+button {
+  border-radius: 15%;
+  background-color: rgb(228, 202, 206);
+  color: #6699FF;
+  border-color: rgb(228, 202, 206);
+  font-weight: bold;
+  height: 30px;
+}
+
+a {
+  color: #6699FF;
+  font-size: 10px;
+}
+
+
+
+
