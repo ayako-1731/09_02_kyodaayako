@@ -20,7 +20,7 @@ $spending = $_POST['spending'];
 $pdo = connect_to_db();
 
 // UPDATE文を作成&実行
-$sql = "UPDATE kakeibo_table SET budget=:budget,deadline=:deadline,items=:items,amount=:amount,spending=:spending,     updated_at=sysdate() WHERE id=:id";  
+$sql = "UPDATE kakeibo_table SET budget=:budget,deadline=:deadline,items=:items,amount=:amount,spending=:spending,    updated_at=sysdate() WHERE id=:id";  
 $stmt = $pdo->prepare($sql);  
 $stmt->bindValue(':budget',    $budget,   PDO::PARAM_INT);  
 $stmt->bindValue(':deadline',  $deadline, PDO::PARAM_STR);  
